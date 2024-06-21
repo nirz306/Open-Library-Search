@@ -48,19 +48,19 @@ const BookDetails = () => {
 
   return (
     <section className='flex flex-col mb-5'>
-      <div className=''>
+      <div>
         <button type='button' className='flex items-center' onClick={() => navigate("/book")}>
           <FaArrowLeft size={22} />
           <span className='font-semibold text-purple-700'>Go Back</span>
         </button>
 
-        <div className='flex flex-row mt-10 '>   {/* Align book image and info in a row */}
+        <div className='flex flex-col lg:flex-row mt-10 '>   {/* Align book image and info in a row on large screens, column on small screens */}
 
-          <div className="flex justify-center">
-            <img src={book?.cover_img} alt="cover img" className="w-[6500px] h-[370px] ml-[100px]" />
+          <div className="flex justify-center mb-4 lg:mb-0">
+            <img src={book?.cover_img} alt="cover img" className="bookcover lg:w-full lg:h-full md:size-[50%]" />
           </div>
 
-          <div className="ml-[100px] flex flex-col text-left justify-center">   {/* book details info */}
+          <div className="books-info flex flex-col text-left justify-center px-4 lg:ml-[100px]">   {/* book details info */}
             <div className='book-details-item title'>
               <span className='font-bold text-2xl'>{book?.title}</span>
             </div>

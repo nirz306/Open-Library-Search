@@ -27,7 +27,7 @@ const BookList = () => {
         <div>
           <h2>{resultTitle}</h2>
         </div>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid lg:grid-cols-4 lg:gap-4 sm:grid-cols-3 ">
           {
             booksWithCovers.slice(0,30).map((item,index) => { //Takes the first 30 books from the booksWithCovers array and maps over them.
 

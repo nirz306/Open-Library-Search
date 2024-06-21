@@ -38,14 +38,14 @@ const SearchForm = () => {
         
         <input
           type='text'
-          className="w-full max-w-[680px] pt-[1.4rem] pb-[1.4rem] pl-[2.8rem] pr-[4rem] border-none rounded-[3.8rem]"
+          className="w-full max-w-[680px] pt-[1.4rem] pb-[1.4rem] pl-[2.8rem] pr-[4rem] border-none rounded-[3.8rem] outline-none focus:outline-none lg:mt-[90px]  sm:mt-[100px] min-[320px]:mt-[50px] "
           placeholder='The Lost World ...'
           ref={searchText}
         />
 
         <button
           type="submit"
-          className="absolute right-2 top-1/2 transform -translate-y-1/2"
+          className="absolute right-4 md:top-[140px] lg:top-[130px] sm:top-[140px] min-[320px]:top-[100px] transform -translate-y-1/2"
           onClick={handleSubmit}
         >
           <FaSearch className='text-purple' size={32} />
