@@ -1,3 +1,7 @@
+![image](https://github.com/nirz306/Open-Library-Search/assets/122902068/306dae41-1bea-47a9-8500-4b2440958473)
+![image](https://github.com/nirz306/Open-Library-Search/assets/122902068/cb6eef4c-cb02-42d1-9742-cbeb1411e187)
+![image](https://github.com/nirz306/Open-Library-Search/assets/122902068/46cdd460-2b78-4106-ab37-09a441507ff4)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
